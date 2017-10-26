@@ -18,7 +18,6 @@ class Home extends React.Component {
         <MenuForm menu={{}} addMenu={this.addMenu} />
         <h1>Please Browse all our Delicious Pokemon</h1>
         <Menulist allmenus={this.state.menus} />
-        <h6>I don't understand this</h6>
       </div>
     )
   }
